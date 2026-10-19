@@ -1,0 +1,10 @@
+body {
+    background-color: #434343;
+}
+#firstDay {
+    display: flex;
+    justify-content: center;
+}
+#textThing {
+    width: 300px;
+}
