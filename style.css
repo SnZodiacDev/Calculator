@@ -1,10 +1,139 @@
 body {
     background-color: #434343;
 }
-#firstDay {
+#mainTextBox {
     display: flex;
     justify-content: center;
 }
 #textThing {
     width: 300px;
+}
+#mainTextBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#firstDay {
+    display: flex;
+    justify-content: center;
+}
+#output {
+    padding: 20px;
+    color: white;
+}
+
+#butMod {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#butPw {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#butParOpen {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#butParClose {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#butPlus {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#butMinus {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#butDivide {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#butMulti {
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+#calculateBut {
+    background-color: #6495ED;
+    border: none;
+    cursor: pointer;
+}
+#up {
+    background-color: #93c47d;
+    border: none;
+    cursor: pointer;
+}
+#down {
+    background-color: #93c47d;
+    border: none;
+    cursor: pointer;
+}
+#numOne {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numTwo {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numThree {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numFour {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numFive {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numSix {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numSeven {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numEight {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numNine {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#numZero {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#butDec {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
+}
+#clear {
+    background-color: #999999;
+    border: none;
+    cursor: pointer;
 }

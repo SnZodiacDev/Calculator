@@ -7,11 +7,45 @@
 </head>
 <link rel = "stylesheet" href = "style.css">
 <body>
-    <div id="firstDay">
-        <div id="mainTextBox">
-            <input id="textThing" type="text">
+        <div id="firstDay">
+            <div id="mainTextBox">
+                <input id="textThing" type="text">
+                <h1 id="output">   </h1>
+            </div>
         </div>
-        <button onclick="valuate()">Calculate</button>
+
+    <div id="firstRowButtons">
+        <button id="butMod" onclick="hello('%')"> % </button>
+        <button id="butPw" onclick="hello('**')"> ** </button>
+        <button id="butParOpen" onclick="hello('(')"> ( </button>
+        <button id="butParClose" onclick="hello(')')"> ) </button>
+        <button id="up" onclick="upArrow()"> up </button>
+    </div>
+    <div id="secondRowButtons">
+        <button id="numOne" onclick="hello('1')"> 1 </button>
+        <button id="numTwo" onclick="hello('2')"> 2 </button>
+        <button id="numThree" onclick="hello('3')"> 3 </button>
+        <button id="down" onclick="downArrow()"> down </button>
+    </div>
+    <div id="thirdRowButtons">
+        <button id="numFour" onclick="hello('4')"> 4 </button>
+        <button id="numFive" onclick="hello('5')"> 5 </button>
+        <button id="numSix" onclick="hello('6')"> 6 </button>
+        <button id="butPlus" onclick="hello('+')"> + </button>
+        <button id="butMinus" onclick="hello('-')"> - </button>
+    </div>
+    <div id="fourthRowButtons">
+        <button id="numSeven" onclick="hello('7')"> 7 </button>
+        <button id="numEight" onclick="hello('8')"> 8 </button>
+        <button id="numNine" onclick="hello('9')"> 9 </button>
+        <button id="butDivide" onclick="hello('/')"> / </button>
+        <button id="butMulti" onclick="hello('*')"> * </button>
+    </div>
+    <div id="lastRowButtons">
+        <button id="clear" onclick="cleary()"> Clear </button>
+        <button id="numZero" onclick="hello('0')"> 0 </button>
+        <button id="butDec" onclick="hello('.')"> . </button>
+        <button id="calculateBut" onclick="valuate()"> Calculate </button>
     </div>
 </body>
 </html>
