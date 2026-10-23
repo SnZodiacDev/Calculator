@@ -1,17 +1,51 @@
-const previousCalculations = [];
-function valuate() {
-    document.getElementById("output").textContent = JSON.parse(eval(document.getElementById("textThing").value));
-    previousCalculations.push(document.getElementById("textThing").value);
-}
+let equations = [];
+let equateIndex = 0;
+
 function hello(numVal) {
     document.getElementById("textThing").value = (document.getElementById("textThing").value + numVal);
 }
+
 function cleary() {
     document.getElementById("textThing").value = "";
 }
-function upArrow() {
 
+function onPageLoad() {
+    const stored = sessionStorage.getItem("stored");
+    if (stored) {
+        equations = JSON.parse(stored);
+    } else {
+        equations = [];
+        sessionStorage.setItem("stored", JSON.stringify(equations));
+    }
 }
-function downArrow() {
 
+function valuate() {
+    document.getElementById("output").textContent = JSON.parse(eval(document.getElementById("textThing").value));
+    equations.push(document.getElementById("textThing").value);
+    sessionStorage.setItem("stored", JSON.stringify(equations));
+    equateIndex = equations.length - 1;
+}
+
+function upArrow() {
+    if (equations[equateIndex] !== document.getElementById("textThing").value) {
+        equateIndex = equations.length - 1;
+    }
+    if (equateIndex > 0) {
+        equateIndex--;
+        document.getElementById("textThing").value = equations[equateIndex];
+    } else if (equateIndex === 0) {
+        document.getElementById("textThing").value = equations[equateIndex];
+    }
+}
+
+function downArrow() {
+    if (equations[equateIndex] !== document.getElementById("textThing").value) {
+        equateIndex = equations.length - 1;
+    }
+    if (equateIndex >= equations.length - 1) {
+        document.getElementById("textThing").value = "";
+    } else {
+        equateIndex++;
+        document.getElementById("textThing").value = equations[equateIndex];
+    }
 }
