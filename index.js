@@ -34,6 +34,7 @@ function upArrow() {
     if (equateIndex > 0) {
         equateIndex--;
         document.getElementById("textThing").value = equations[equateIndex];
+        document.getElementById("output").textContent = "";
     } else if (equateIndex === 0) {
         document.getElementById("textThing").value = equations[equateIndex];
     }
