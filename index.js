@@ -7,6 +7,7 @@ function hello(numVal) {
 
 function cleary() {
     document.getElementById("textThing").value = "";
+    document.getElementById("output").textContent = "";
 }
 
 function onPageLoad() {

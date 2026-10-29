@@ -26,160 +26,160 @@ body {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butPw {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butParOpen {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butParClose {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butPlus {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butMinus {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butDivide {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butMulti {
     background-color: #FF9900;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #up {
     background-color: #93c47d;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #down {
     background-color: #93c47d;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numOne {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numTwo {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numThree {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numFour {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numFive {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numSix {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numSeven {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numEight {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #numNine {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #clear {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
     text-align: center;
 }
@@ -187,32 +187,59 @@ body {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
 }
 #butDec {
     background-color: #999999;
     border: none;
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
+    font-size: 22px;
 }
 #calculateBut {
     background-color: #6495ED;
     border: none;
     cursor: pointer;
-    width: 100px;
-    height: 40px;
+    width: 140px;
+    height: 60px;
     margin: 10px;
 }
 
 #blanky {
     background-color: #434343;
     border: none;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
     opacity: 0;
+}
+
+#firstRowButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#secondRowButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#thirdRowButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fourthRowButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lastRowButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
