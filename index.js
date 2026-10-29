@@ -45,7 +45,7 @@ function downArrow() {
         equateIndex = equations.length - 1;
     }
     if (equateIndex >= equations.length - 1) {
-        document.getElementById("textThing").value = "";
+        document.getElementById("textThing").value = equations[equations.length - 1];
     } else {
         equateIndex++;
         document.getElementById("textThing").value = equations[equateIndex];
